@@ -1,1 +1,1 @@
-# style-chunk
+This is used for dialog background.
