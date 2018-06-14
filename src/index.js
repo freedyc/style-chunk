@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Mask from './mask';
 import registerServiceWorker from './registerServiceWorker';
+import Mask from './mask';
+import Button from './button';
 
-ReactDOM.render(<Mask />, document.getElementById('root'));
+ReactDOM.render(<Button theme={{icolor:'red'}}>Button</Button>, document.getElementById('root'));
 registerServiceWorker();

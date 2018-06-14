@@ -1,3 +1,5 @@
-import Mask from "./src/mask";
 
-export default Mask;
+import Mask from "./src/mask";
+import Button from "./src/button";
+
+export { Mask, Button };
